@@ -48,7 +48,57 @@ The robust functionality of our system provides capabilities such as registering
 
 The Sustainable Materials Passport Project marks a significant step towards bridging the gap between blockchain technology and sustainable resource management. Through this initiative, we aim to foster a culture of sustainability and circular economy, making the world a better place for future generations.
 
-Thank you for your interest in the Sustainable Materials Passport Project. We look forward to your support and participation as we strive towards a greener and more sustainable future!
+## Features
+
+- **Transparency**: Each material is registered on the blockchain, ensuring its history and properties are accessible and immutable.
+- **Lifecycle Management**: Track and update the lifecycle of each material.
+- **Recycling Incentives**: A reward system to incentivize recycling of materials.
+- **Ownership Management**: Transfer ownership of materials and maintain a clear record of each transaction.
+
+## Getting Started
+
+To get started with the Sustainable Materials Passport Project:
+
+1. Clone the repository:
+
+   ``` sh
+   git clone https://github.com/your_username/SustainableMaterialsPassport.git
+   ```
+
+2. Navigate into the project directory:
+
+   ``` sh
+   cd SustainableMaterialsPassport
+   ```
+
+## Dependencies
+
+- **Solidity**: ^0.8.4
+- **Truffle**: Latest version
+- **Ganache**: For a personal blockchain for Ethereum development that runs on your desktop.
+
+## Usage
+
+1. Install dependencies:
+
+   ``` sh
+   npm install
+   ```
+
+2. Start Ganache and make sure it's running.
+
+3. Compile and migrate the contracts:
+
+   ``` sh
+   truffle compile
+   truffle migrate
+   ```
+
+4. Start the local development server:
+
+   ``` sh
+   npm start
+   ```
 
 ## Quick Start
 
@@ -65,7 +115,6 @@ npm run compile
 ```
 
 ## Contract
-
 
 ## Development Resources
 
@@ -84,7 +133,6 @@ npm run compile
 | **Rent-to-Own**                   | [**>>>**](https://github.com/block-foundation/solidity-rent-to-own) | [**>>>**](https://github.com/block-foundation/teal-rent-to-own) |
 | **Self-Owning Building**          | [**>>>**](https://github.com/block-foundation/solidity-self-owning-building) | [**>>>**](https://github.com/block-foundation/teal-self-owning-building) |
 | **Smart Home**                    | [**>>>**](https://github.com/block-foundation/solidity-smart-home) | [**>>>**](https://github.com/block-foundation/teal-smart-home) |
-
 
 ---
 
